@@ -1,0 +1,14 @@
+@import './assets/styles/fonts.css';
+
+:root {
+	font-family: 'Matt Trial';
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: rgb(2, 0, 36);
+	background: #fafafa;
+	overflow: hidden;
+}

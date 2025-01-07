@@ -1,0 +1,65 @@
+/* Контейнер для карточки и логотипов */
+.nba-card-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+/* Основная карточка */
+.nba-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s ease;
+	width: 250px; /* Ширина карточки */
+	height: 200px;
+}
+
+.nba-card:hover {
+	transform: scale(1.05);
+}
+
+/* Команда и счёт */
+.team {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.team-name {
+	font-size: 16px;
+	font-weight: bold;
+	flex: 1;
+}
+
+.team-score {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+}
+
+.vs {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.game-info {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.game-date {
+	font-size: 14px;
+	color: #666;
+}

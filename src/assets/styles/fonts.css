@@ -1,0 +1,32 @@
+/* Matt Trial Black */
+@font-face {
+	font-family: 'Matt Trial';
+	src: url('../fonts/Matt_Trial-Black-BF670897ed2f663.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* Matt Trial Bold */
+@font-face {
+	font-family: 'Matt Trial';
+	src: url('../fonts/Matt_Trial-Bold-BF670897ed2aebd.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Matt Trial ExtraBold */
+@font-face {
+	font-family: 'Matt Trial';
+	src: url('../fonts/Matt_Trial-ExtraBold-BF670897ed28442.ttf')
+		format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* Matt Trial Medium */
+@font-face {
+	font-family: 'Matt Trial';
+	src: url('../fonts/Matt_Trial-Medium-BF670897ed27608.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
